@@ -5,20 +5,33 @@ html
 body
 {
                background-color:#f2f2f2;
-               font-family: "raleway" "sans serif";
-               display: flexbox;
+               font-family: "raleway", "sans serif";
+               display: flex;
+               flex-direction: column;
 }             
+.header
+{
+               display: grid;
+               align-items: center;
+               max-height: 87px;
+               margin: auto;
+               grid-template-columns: auto 1fr auto;
+               grid-template-areas: logohead, menu;
+}
 #logohead
 {
                border-style: none;
-               grid-area: logo;
-               padding: 0 2rem;
-               height: 2.813rem;
 }
 #menu
 {
-               display: flex;
-               text-align: right;
+             text-align: right;
+}
+.menuhebergement
+{
+               color: blue;
+               border-bottom: white 3px transparent solid;
+               padding: 3rem;
+               font-weight: 100;
 }
 .searchfiltre
 {
