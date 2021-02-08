@@ -21,17 +21,12 @@ body
 #logohead
 {
                border-style: none;
+               text-align: right;
 }
 #menu
 {
              text-align: right;
-}
-.menuhebergement
-{
-               color: blue;
-               border-bottom: white 3px transparent solid;
-               padding: 3rem;
-               font-weight: 100;
+             display: flex;
 }
 .searchfiltre
 {
