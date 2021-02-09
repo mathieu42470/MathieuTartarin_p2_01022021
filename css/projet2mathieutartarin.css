@@ -24,9 +24,22 @@ body
 }
 #menu
 {
-               color: blue;
+               color:black;
                padding: 2rem;
                display: flex;
+               justify-content: flex-end;
+}
+#menu:hover
+{
+               color: blue;
+}
+.menuhebergement
+{
+               margin-right: 2rem;
+}
+.menuactivites
+{
+               margin-right: 2rem;
 }
 h1
 {
@@ -42,4 +55,288 @@ h1
                display: inline-flex;
                max-width: 100%;
                overflow: auto;
+}
+.recherchelieubutton
+{
+               background-color: blue;
+               color: white;
+               cursor: pointer;
+               border: none;
+               border-radius: 0 1rem 1rem 0;
+               font-weight: bold;
+}
+.filtre
+{
+               display: flex;
+               margin-top: 2rem;
+               flex-wrap: wrap;
+}
+.filtretitre
+{
+               margin: 0 2rem 1rem 0;
+               display: flex;
+               align-items: center;
+}
+.filtreeconomique
+{
+               display: flex;
+               align-items: center;
+               margin-right: 2rem;
+               border: 2px solid #d9d9d9;
+               border-radius: 2rem;
+               cursor: pointer;
+               transition-duration: 0.1s;
+               font-weight: bold;
+}
+.filtreeconomique:hover
+{
+               background-color: white;
+               color: blue;
+}
+.filtreeconomiqueicon
+{
+               background-color: burlywood;
+               min-width: 3.5rem;
+               min-height: 3.5rem;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               border-radius: 100%;
+}
+.filtreeconomiquetext
+{
+               margin: 1rem;
+
+}
+.filtrefamilial
+{
+               display: flex;
+               align-items: center;
+               margin-right: 2rem;
+               border: 2px solid #d9d9d9;
+               border-radius: 2rem;
+               cursor: pointer;
+               transition-duration: 0.1s;
+               font-weight: bold;
+}
+.filtrefamilial:hover
+{
+               background-color: white;
+               color: blue;
+}
+.filtrefamilialicon
+{
+               background-color: burlywood;
+               min-width: 3.5rem;
+               min-height: 3.5rem;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               border-radius: 100%;
+}
+.filtrefamilialtext
+{
+               margin: 1rem;
+}
+.filtreromantique
+{
+               display: flex;
+               align-items: center;
+               margin-right: 2rem;
+               border: 2px solid #d9d9d9;
+               border-radius: 2rem;
+               cursor: pointer;
+               transition-duration: 0.1s;
+               font-weight: bold;
+}
+.filtreromantique:hover
+{
+               background-color: white;
+               color: blue;
+}
+.filtreromantiqueicon
+{
+               background-color: burlywood;
+               min-width: 3.5rem;
+               min-height: 3.5rem;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               border-radius: 100%;
+}
+.filtreromantiquetext
+{
+               margin: 1rem;
+}
+.filtreanimauxdomestique
+{
+               display: flex;
+               align-items: center;
+               margin-right: 2rem;
+               border: 2px solid #d9d9d9;
+               border-radius: 2rem;
+               cursor: pointer;
+               transition-duration: 0.1s;
+               font-weight: bold;
+}
+.filtreanimauxdomestique:hover
+{
+               background-color: white;
+               color: blue;
+}
+.filtreanimauxdomestiqueicon
+{
+               background-color: burlywood;
+               min-width: 3.5rem;
+               min-height: 3.5rem;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               border-radius: 100%;
+}
+.filtreanimauxdomestiquetext
+{
+               margin: 1rem;
+}
+.rechercherésultat
+{
+               display: flex;
+               margin: 2rem;
+               align-items: center;
+}
+.rechercherésultaticon
+{
+               margin-right: 2rem;
+               font-weight: 900;
+               color: blue;
+}
+.hebergement
+{
+               display: grid;
+               column-gap: 2rem;
+}
+.hebergementpopulaire
+{
+               display: flex;
+               row-gap: 2rem;
+}
+.hebergementpopulairetitre
+{
+              margin: 1rem;
+              display: flex; 
+              grid-column: 1/-1;
+              justify-content: space-between;       
+}
+.premierhebergement
+{
+               display: flex;
+               flex-direction: column;
+               width: 33%;
+               overflow: auto;
+}
+.premierhebergementphoto
+{
+               display: flex;
+               position: relative;
+               width: 33%;
+}
+.nomprixpremierhebergement
+{
+               display: flex;
+               flex-direction: column;
+}
+.premierherbegementnom
+{
+               display: flex;
+               flex-direction: column;
+}
+.premierhebergementprix
+{
+               display: flex
+               ; margin: 0.25rem 0.75rem 0.25rem 0.75 rem;
+}
+.deuxiemeherbegement
+{
+               display: grid;
+               align-self: flex-end;
+               width: 33%;
+               overflow: auto;
+}
+.activite
+{
+               display: grid;
+               column-gap: 2rem;
+               margin: 4rem 0;
+}
+.activiteaMarseille
+{
+               grid-column: 1/-1;
+}
+.footercolumn
+{
+               width: 100%;
+               display: flex;
+               padding: 0 2rem;
+               box-sizing: border-box;
+               margin: auto;
+}
+.apropos
+{
+               width: 30%;
+               padding: 2rem 2rem;
+}
+.fonctionnementdusite
+{
+               display: block;
+               margin: 1rem 0;
+}
+.conditiongeneral
+{
+               display: block;
+               margin: 1rem 0;  
+}
+.données
+{
+               display: block;
+               margin: 1rem 0;
+}
+.noshebergement
+{
+               width: 30%;
+               padding: 2rem 2rem;
+}
+.nosherbegement2
+{
+               display: block;
+               margin: 1rem 0;
+}
+.charte
+{
+               display: block;
+               margin: 1rem 0;
+}
+.soumettre
+{
+               display: block;
+               margin: 1rem 0;
+}
+.assistance
+{
+               width: 30%;
+               padding: 2rem 2rem;
+}
+.assistance2
+{
+               display: block;
+               margin: 1rem 0;
+}
+.centreaide
+{
+               display: block;
+               margin: 1rem 0;
+}
+.nouscontacter
+{
+               display: block;
+               margin: 1rem 0;
 }
