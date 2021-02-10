@@ -11,16 +11,16 @@
                  <header class="header">
                          <img class="logohead" src="photos/logo/Reservia@32x.png" alt="logodereservia"/>
                          <p span id="menu">
-                                 <a href="#hébergement" class="menuhebergement">hébergements</a>
-                                 <a href="#activité" class="menuactivites">activités</a>
-                                 <a class="s'inscrire">s'inscrire</a>
+                                 <a href="#hebergement" class="menu2">hébergements</a>
+                                 <a href="#activité" class="menu2">activités</a>
+                                 <a class="menu2">s'inscrire</a>
                          </p>
                  </header>
  <!--le corps de la page-->   
                  <main>
 <!--recherche et filtre-->      
                          <section class="recherche">
-                                 <h1 class="recherchetitre">Trouvez votre hébergement pour des vacances de rêve</h1>
+                                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                                  <p>En plein centre ville ou en pleine nature</p>
                                  <form class="recherchelieu" method="POST" action="">
                                          <span class="recherchelieuicon">
@@ -33,50 +33,55 @@
                                  </form>
                                  <form class="filtre">
                                          <h2 class="filtretitre">filtre</h2>
-                                         <div class="filtreeconomique">
-                                                 <span class="filtreeconomiqueicon">
+                                         <div class="filtre2">
+                                                 <span class="filtreicon">
                                                          <i class="fas fas fa-money-bill-wave filtreeconomiqueicon2" aria-hidden="true"></i>
                                                  </span>
-                                                 <p class="filtreeconomiquetext">Économique</p>
+                                                 <p class="filtretext">Économique</p>
                                          </div>
-                                         <div class="filtrefamilial">
-                                                <span class="filtrefamilialicon">
+                                         <div class="filtre2">
+                                                <span class="filtreicon">
                                                          <i class="fas fa-child filtrefamilialicon2" aria-hidden="true"></i>
                                                  </span>
-                                                 <p class="filtrefamilialtext">Familial</p>
+                                                 <p class="filtretext">Familial</p>
                                          </div>
-                                        <div class="filtreromantique">
-                                                 <span class="filtreromantiqueicon">
+                                        <div class="filtre2">
+                                                 <span class="filtreicon">
                                                          <i class="fas fas fa-heart filtreromantiqueicon2" aria-hidden="true"></i>
                                                  </span>
-                                                 <p class="filtreromantiquetext">Romantique</p>
+                                                 <p class="filtretext">Romantique</p>
                                                  </div>
-                                         <div class="filtreanimauxdomestique">
-                                                <span class="filtreanimauxdomestiqueicon">
+                                         <div class="filtre2">
+                                                <span class="filtreicon">
                                                          <i class="fas fas fa-dog filtreanimauxdomestiqueicon2" aria-hidden="true"></i>
                                                  </span>
-                                                 <p class="filtreanimauxdomestiquetext">Animaux domestique</p>
+                                                 <p class="filtretext">Animaux domestique</p>
                                          </div>
                                  </form>
                                  <div class="rechercherésultat">
                                          <div class="rechercherésultaticon">
                                                  <i class="fas fas fa-info rechercherésultaticon2" aria-hidden="true"></i>
                                          </div>
-                                         <p class="résultattext">Plus de 500 logements disponibledans cette ville</p>
+                                         <p class="résultattext">Plus de 500 logements disponible dans cette ville</p>
                                  </div>
                                  </section>
 <!--hébergement-->                  
-                                 <section class="hebergement">
+                        <section class="hebergement">
 <!--hébergement populaire-->                
                                 <aside class="hebergementpopulaire">
-                                         <h2 class="hebergementpopulairetitre">Les plus populaire
-                                         <i class="fas fas fa-chart-line hebergementpopulairetitre2" aria-hidden="true"></i></h2>
-                                         <article class="premierhebergement">
-                                                 <img class="premierhebergementphoto" src="photos/hebergements/tres_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="vu d'une chambre a Marseille">
-                                                 <div class="nomprixpremierhebergement">
-                                                          <h3 class="premierhebergementnom">Hôtel Le soleil du matin</h3>
-                                                         <p class="premierhebergementprix">Nuit à partir de <strong>128€</strong></p>
-                                                         <div class="premierhebergementetoile">
+                                        
+                                        <div class="hebergementpopulairetitre"> 
+                                        <h2>Les plus populaire
+                                         <i class="fas fas fa-chart-line hebergementpopulairetitre2" aria-hidden="true"></i>
+                                        </h2>
+                                </div>
+                                <div class="hebergementpopulaire2">
+                                         <article class="hebergementpopulaire3">
+                                                 <img class="hebergementpopulairephoto" src="photos/hebergements/tres_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="vu d'une chambre a Marseille">
+                                                 <div class="hebergementpopulaireprixnom">
+                                                          <h3 class="hebergementpopulairenom">Hôtel Le soleil du matin</h3>
+                                                         <p class="hebergementpopulaireprix">Nuit à partir de <strong>128€</strong></p>
+                                                         <div class="hebergementpopulaireetoile">
                                                                  <i class="fas fa-star premierherbegementetoile1" data-active="true"></i>
                                                                  <i class="fas fa-star premierherbegementetoile2" data-active="true"></i>
                                                                  <i class="fas fa-star premierherbegementetoile3" data-active="true"></i> 
@@ -85,39 +90,44 @@
                                                  </div>
                                                  </div>
                                          </article>
-                                         <article class="deuxiemehebergement">
-                                                 <img class="deuxiemehebergementphoto" src="photos/hebergements/tres_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="chambre avec un lit superpose">
-                                                 <h3 class="deuxiemehebergementnom">Au coeur de l'eau chambres d'hotes</h3>
-                                                 <p class="deuxiemehebergementprix">Nuit à partir de <strong>71€</strong></p>
-                                                 <div class="deuxiemehebergementetoile">
+                                         <article class="hebergementpopulaire3">
+                                                 <img class="hebergementpopulairephoto" src="photos/hebergements/tres_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="chambre avec un lit superpose">
+                                                 <div class="hebergementpopulaireprixnom"> 
+                                                 <h3 class="hebergementpopulairenom">Au coeur de l'eau chambres d'hotes</h3>
+                                                 <p class="hebergementpopulaireprix">Nuit à partir de <strong>71€</strong></p>
+                                                 <div class="hebergementpopulaireetoile">
                                                          <i class="fas fa-star deuxiemeherbegementetoile1" data-active="true"></i>
                                                          <i class="fas fa-star deuxiemeherbegementetoile2" data-active="true"></i>
                                                          <i class="fas fa-star deuxiemeherbegementetoile3" data-active="true"></i>
                                                          <i class="fas fa-star deuxiemeherbegementetoile4" data-active="true"></i>
                                                          <i class="fas far fa-star deuxiemehebergementetoile5" data-active="false" aria-hidden="true"></i>
+                                                 </div> 
                                                  </div>
                                          </article>
-                                         <article class="troisiemehebergement">
-                                                 <img class="troisiemehebergementphoto" src="photos/hebergements/tres_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="chambre avec un lit superpose">
-                                                 <h3 class="troisiemehebergementnom">Hôtel tout bleu et blanc</h3>
-                                                 <p class="troisiemehebergementprix">Nuit à partir de <strong>68€</strong></p>
-                                                 <div class="troisiemehebergementetoile">
+                                         <article class="hebergementpopulaire3">
+                                                 <img class="hebergementpopulairephoto" src="photos/hebergements/tres_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="chambre avec un lit superpose">
+                                                 <div class="hebergementpopulaireprixnom"> 
+                                                 <h3 class="hebergementpopulairenom">Hôtel tout bleu et blanc</h3>
+                                                 <p class="hebergementpopulaireprix">Nuit à partir de <strong>68€</strong></p>
+                                                 <div class="hebergementpopulaireetoile">
                                                          <i class="fas fa-star troisiemeherbegementetoile1" data-active="true"></i>
                                                          <i class="fas fa-star troisiemebegementetoile2" data-active="true"></i>
                                                          <i class="fas fa-star troisiemeherbegementetoile3" data-active="true"></i>
                                                          <i class="fas fa-star troisiemehebegementetoile4" data-active="true"></i>
                                                          <i class="fas fa-star troisiemeherbegementetoile5" data-active="false" aria-hidden="true"></i>
+                                                </div>
                                                  </div>
                                          </article>
+                                        </div>
                                  </aside>
 <!--hébergement selectioné-->             
                                  <section class="hebergementselectione">
-                                         <h2 class="hebergementselectionetitre">Hébergement à Marseille</h2>
+                                         <h2 class="hebergementtitre">Hébergement à Marseille</h2>
                                          <article class="hebergement1">
-                                                 <img class="hebergement1photo" src="photos/hebergements/tres_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="photo d'un lit superposé">
-                                                 <h3 class="hebergement1nom">Auberge la Cannebière</h3>
-                                                 <p class="hebergement1prix">Nuit à partir de <strong>25€</strong></p>
-                                                 <div class="hebergement1etoile">
+                                                 <img class="hebergementphoto" src="photos/hebergements/tres_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="photo d'un lit superposé">
+                                                 <h3 class="hebergementnom">Auberge la Cannebière</h3>
+                                                 <p class="hebergementprix">Nuit à partir de <strong>25€</strong></p>
+                                                 <div class="hebergementetoile">
                                                          <i class="fas fa-star rbegement1etoile1" data-active="true"></i>
                                                          <i class="fas fa-star herbegement1etoile2" data-active="true"></i>
                                                          <i class="fas fa-star herbegement1etoile3" data-active="true"></i>
@@ -125,11 +135,11 @@
                                                          <i class="fas fa-star herbegement1etoile5" data-active="true"></i>
                                                  </div>
                                          </article>
-                                         <article class="hebergement2">
-                                                 <img class="hebergement2photo" src="photos/hebergements/tres_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="photo d'un lit sur fond blanc">
-                                                 <h3 class="hebergement2nom">Hôtel du port</h3>
-                                                 <p class="hebergement2prix">Nuit à partir de <strong>52€</strong></p>
-                                                 <div class="hebergement2etoile">
+                                         <article class="hebergement1">
+                                                 <img class="hebergementphoto" src="photos/hebergements/tres_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="photo d'un lit sur fond blanc">
+                                                 <h3 class="hebergementnom">Hôtel du port</h3>
+                                                 <p class="hebergementprix">Nuit à partir de <strong>52€</strong></p>
+                                                 <div class="hebergementetoile">
                                                          <i class="fas fa-star herbegement2etoile1" data-active="true"></i>
                                                          <i class="fas fa-star herbegement2etoile2" data-active="true"></i>
                                                          <i class="fas fa-star herbegement2etoile3" data-active="true"></i>
@@ -137,11 +147,11 @@
                                                          <i class="fas fa-star herbegement2etoile5" data-active="true"></i>
                                                  </div>
                                          </article>
-                                         <article class="hebergement3">
-                                                 <img class="hebergement3photo" src="photos/hebergements/tres_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="photo d'un lit simple">
-                                                 <h3 class="hebergement3nom">Hôtel La mouette</h3>
-                                                 <p class="hebergement3prix">Nuit à partir de <strong>76€</strong></p> 
-                                                 <div class="hebergement3etoile">
+                                         <article class="hebergement1">
+                                                 <img class="hebergementphoto" src="photos/hebergements/tres_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="photo d'un lit simple">
+                                                 <h3 class="hebergementnom">Hôtel La mouette</h3>
+                                                 <p class="hebergementprix">Nuit à partir de <strong>76€</strong></p> 
+                                                 <div class="hebergementetoile">
                                                          <i class="fas fa-star herbegement3etoile1" data-active="true"></i>
                                                          <i class="fas fa-star herbegement3etoile2" data-active="true"></i>
                                                          <i class="fas fa-star herbegement3etoile3" data-active="true"></i>
@@ -149,11 +159,11 @@
                                                          <i class="fas fa-star herbegement3etoile5" data-active="true"></i>
                                                  </div>
                                          </article>
-                                         <article class="hebergement4">
-                                                 <img class="hebergement4photo" src="photos/hebergements/tres_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="photo d'un lit avec tableau">
-                                                 <h3 class="hebergement4nom">Auberge de la mer</h3>
-                                                 <p class="hebergement4prix">Nuit à partir de <strong>46€</strong></p>
-                                                 <div class="hebergement4etoile">
+                                         <article class="hebergement1">
+                                                 <img class="hebergementphoto" src="photos/hebergements/tres_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="photo d'un lit avec tableau">
+                                                 <h3 class="hebergementnom">Auberge de la mer</h3>
+                                                 <p class="hebergementprix">Nuit à partir de <strong>46€</strong></p>
+                                                 <div class="hebergementetoile">
                                                          <i class="fas fa-star herbegement4etoile1" data-active="true"></i>
                                                          <i class="fas fa-star herbegement4etoile2" data-active="true"></i>
                                                          <i class="fas fa-star herbegement4etoile3" data-active="true"></i>
@@ -161,11 +171,11 @@
                                                          <i class="fas fa-star herbegement4etoile5" data-active="true"></i>
                                                  </div>
                                          </article>
-                                         <article class="hebergement5">
-                                                 <img class="hebergement5photo" src="photos/hebergements/tres_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="lit superposé">
-                                                 <h3 class="hebergement5nom">Auberge Le panier</h3>
-                                                 <p class="hebergement5prix">Nuit à partir de <strong>23€</strong></p>
-                                                 <div class="hebergement5etoile">
+                                         <article class="hebergement1">
+                                                 <img class="hebergementphoto" src="photos/hebergements/tres_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="lit superposé">
+                                                 <h3 class="hebergementnom">Auberge Le panier</h3>
+                                                 <p class="hebergementprix">Nuit à partir de <strong>23€</strong></p>
+                                                 <div class="hebergementetoile">
                                                          <i class="fas fa-star herbegement5etoile1" data-active="true"></i>
                                                          <i class="fas fa-star herbegement5etoile2" data-active="true"></i>
                                                          <i class="fas fa-star herbegement5etoile3" data-active="true"></i>
@@ -173,11 +183,11 @@
                                                          <i class="fas fa-star herbegement5etoile5" data-active="true"></i>
                                                  </div>
                                          </article>
-                                         <article class="hebergement6">
-                                                 <img class="hebergement6photo" src="photos/hebergements/tres_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="lit double avec vu">
-                                                 <h3 class="hebergement6nom">Hôtel chez Amina</h3>
-                                                 <p class="hebergement6prix">Nuit à partir de <strong>96€</strong></p>
-                                                 <div class="hebergement6etoile">
+                                         <article class="hebergement1">
+                                                 <img class="hebergementphoto" src="photos/hebergements/tres_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="lit double avec vu">
+                                                 <h3 class="hebergementnom">Hôtel chez Amina</h3>
+                                                 <p class="hebergementprix">Nuit à partir de <strong>96€</strong></p>
+                                                 <div class="hebergementetoile">
                                                          <i class="fas fa-star herbegement6etoile1" data-active="true"></i>
                                                          <i class="fas fa-star herbegement6etoile2" data-active="true"></i>
                                                          <i class="fas fa-star herbegement6etoile3" data-active="true"></i>
@@ -220,21 +230,21 @@
 <!--fin de la page-->     
                  <footer>
                          <div class="footercolumn">
-                                 <div class="apropos">
-                                         <h3 class="apropos2">A propos</h3>
-                                         <a class="fonctionnementdusite" href="#">Fonctionnement du site</a>
-                                         <a class="conditiongeneral" href="#">Conditions générales de vente</a>
-                                         <a class="données"  href="#">Données et confidentialités</a>
+                                 <div class="colonne">
+                                         <h3 class="colonnepied">A propos</h3>
+                                         <a class="colonnepied" href="#">Fonctionnement du site</a>
+                                         <a class="colonnepied" href="#">Conditions générales de vente</a>
+                                         <a class="colonnepied"  href="#">Données et confidentialités</a>
                                  </div>
-                                 <div class="noshebergement">
-                                         <h3 class="noshebergement2">Nos hébégerment</h3>
-                                         <a class="charte" href="#"> Charte qualité</a>
-                                         <a class="soumettre" href="#">Soumettre votre hôtel</a>
+                                 <div class="colonne">
+                                         <h3 class="colonnepied">Nos hébégerment</h3>
+                                         <a class="colonnepied" href="#"> Charte qualité</a>
+                                         <a class="colonnepied" href="#">Soumettre votre hôtel</a>
                                  </div>
-                                 <div class="assistance">
-                                         <h3 class="asistance2">Assistance</h3>
-                                         <a class="centreaide" href="#">Centre d'aide</a>
-                                         <a class="nouscontacter" href="#">Nous contacter</a>
+                                 <div class="colonne">
+                                         <h3 class="colonnepied">Assistance</h3>
+                                         <a class="colonnepied" href="#">Centre d'aide</a>
+                                         <a class="colonnepied" href="#">Nous contacter</a>
                                  </div>
                          </div>
                  </footer>           

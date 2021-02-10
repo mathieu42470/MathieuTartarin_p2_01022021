@@ -1,14 +1,21 @@
+@font-face{
+               font-family: "raleway";
+               src:url("../Polices/Raleway-VariableFont_wght.ttf")
+}
+
 html
 {
+               
                line-height: 1.15;
 }
 body
 {
                background-color:#f2f2f2;
-               font-family: "raleway", "sans serif";
+               font-family: raleway;
                display: flex;
                flex-direction: column;
-}             
+}   
+        
 .header
 {
                display: grid;
@@ -33,28 +40,24 @@ body
 {
                color: blue;
 }
-.menuhebergement
+.menu2
 {
                margin-right: 2rem;
 }
-.menuactivites
-{
-               margin-right: 2rem;
+.recherche{
+               margin: 2rem;
 }
 h1
 {
                font-size: 1.5em;
                margin: .67em 0;
 }
-.rerecherchetitre
-{
-               margin-bottom: 0.5rem;
-}
 .recherchelieu
 {
                display: inline-flex;
                max-width: 100%;
                overflow: auto;
+               margin-right: 1rem;
 }
 .recherchelieubutton
 {
@@ -77,7 +80,7 @@ h1
                display: flex;
                align-items: center;
 }
-.filtreeconomique
+.filtre2
 {
                display: flex;
                align-items: center;
@@ -88,12 +91,12 @@ h1
                transition-duration: 0.1s;
                font-weight: bold;
 }
-.filtreeconomique:hover
+.filtre2:hover
 {
                background-color: white;
                color: blue;
 }
-.filtreeconomiqueicon
+.filtreicon
 {
                background-color: burlywood;
                min-width: 3.5rem;
@@ -103,100 +106,10 @@ h1
                align-items: center;
                border-radius: 100%;
 }
-.filtreeconomiquetext
+.filtretext
 {
                margin: 1rem;
 
-}
-.filtrefamilial
-{
-               display: flex;
-               align-items: center;
-               margin-right: 2rem;
-               border: 2px solid #d9d9d9;
-               border-radius: 2rem;
-               cursor: pointer;
-               transition-duration: 0.1s;
-               font-weight: bold;
-}
-.filtrefamilial:hover
-{
-               background-color: white;
-               color: blue;
-}
-.filtrefamilialicon
-{
-               background-color: burlywood;
-               min-width: 3.5rem;
-               min-height: 3.5rem;
-               display: flex;
-               justify-content: center;
-               align-items: center;
-               border-radius: 100%;
-}
-.filtrefamilialtext
-{
-               margin: 1rem;
-}
-.filtreromantique
-{
-               display: flex;
-               align-items: center;
-               margin-right: 2rem;
-               border: 2px solid #d9d9d9;
-               border-radius: 2rem;
-               cursor: pointer;
-               transition-duration: 0.1s;
-               font-weight: bold;
-}
-.filtreromantique:hover
-{
-               background-color: white;
-               color: blue;
-}
-.filtreromantiqueicon
-{
-               background-color: burlywood;
-               min-width: 3.5rem;
-               min-height: 3.5rem;
-               display: flex;
-               justify-content: center;
-               align-items: center;
-               border-radius: 100%;
-}
-.filtreromantiquetext
-{
-               margin: 1rem;
-}
-.filtreanimauxdomestique
-{
-               display: flex;
-               align-items: center;
-               margin-right: 2rem;
-               border: 2px solid #d9d9d9;
-               border-radius: 2rem;
-               cursor: pointer;
-               transition-duration: 0.1s;
-               font-weight: bold;
-}
-.filtreanimauxdomestique:hover
-{
-               background-color: white;
-               color: blue;
-}
-.filtreanimauxdomestiqueicon
-{
-               background-color: burlywood;
-               min-width: 3.5rem;
-               min-height: 3.5rem;
-               display: flex;
-               justify-content: center;
-               align-items: center;
-               border-radius: 100%;
-}
-.filtreanimauxdomestiquetext
-{
-               margin: 1rem;
 }
 .rechercherésultat
 {
@@ -212,13 +125,14 @@ h1
 }
 .hebergement
 {
-               display: grid;
+               display: flex;
+               flex-direction: column;
                column-gap: 2rem;
 }
 .hebergementpopulaire
 {
                display: flex;
-               row-gap: 2rem;
+              flex-direction: column;
 }
 .hebergementpopulairetitre
 {
@@ -227,20 +141,20 @@ h1
               grid-column: 1/-1;
               justify-content: space-between;       
 }
-.premierhebergement
+.hebergementpopulaire2
 {
                display: flex;
                flex-direction: column;
                width: 33%;
                overflow: auto;
 }
-.premierhebergementphoto
+.hebergementpopulairephoto
 {
                display: flex;
                position: relative;
                width: 33%;
 }
-.nomprixpremierhebergement
+.hebergementpopulaireprixnom
 {
                display: flex;
                flex-direction: column;
@@ -254,13 +168,6 @@ h1
 {
                display: flex
                ; margin: 0.25rem 0.75rem 0.25rem 0.75 rem;
-}
-.deuxiemeherbegement
-{
-               display: grid;
-               align-self: flex-end;
-               width: 33%;
-               overflow: auto;
 }
 .activite
 {
@@ -280,62 +187,12 @@ h1
                box-sizing: border-box;
                margin: auto;
 }
-.apropos
+.colonne
 {
                width: 30%;
                padding: 2rem 2rem;
 }
-.fonctionnementdusite
-{
-               display: block;
-               margin: 1rem 0;
-}
-.conditiongeneral
-{
-               display: block;
-               margin: 1rem 0;  
-}
-.données
-{
-               display: block;
-               margin: 1rem 0;
-}
-.noshebergement
-{
-               width: 30%;
-               padding: 2rem 2rem;
-}
-.nosherbegement2
-{
-               display: block;
-               margin: 1rem 0;
-}
-.charte
-{
-               display: block;
-               margin: 1rem 0;
-}
-.soumettre
-{
-               display: block;
-               margin: 1rem 0;
-}
-.assistance
-{
-               width: 30%;
-               padding: 2rem 2rem;
-}
-.assistance2
-{
-               display: block;
-               margin: 1rem 0;
-}
-.centreaide
-{
-               display: block;
-               margin: 1rem 0;
-}
-.nouscontacter
+.colonnepied
 {
                display: block;
                margin: 1rem 0;
