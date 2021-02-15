@@ -10,7 +10,7 @@ html
 }
 body
 {
-               background-color:#f2f2f2;
+               background-color: white;
                font-family: raleway;
                display: flex;
                flex-direction: column;
@@ -123,61 +123,34 @@ h1
                font-weight: 900;
                color: blue;
 }
-.hebergement
-{
-               display: flex;
-               flex-direction: column;
-               column-gap: 2rem;
-}
-.hebergementpopulaire
-{
-               display: flex;
-              flex-direction: column;
-}
-.hebergementpopulairetitre
-{
-              margin: 1rem;
-              display: flex; 
-              grid-column: 1/-1;
-              justify-content: space-between;       
-}
-.hebergementpopulaire2
-{
-               display: flex;
-               flex-direction: column;
-               width: 33%;
-               overflow: auto;
-}
-.hebergementpopulairephoto
-{
-               display: flex;
-               position: relative;
-               width: 33%;
-}
-.hebergementpopulaireprixnom
-{
-               display: flex;
-               flex-direction: column;
-}
-.premierherbegementnom
-{
-               display: flex;
-               flex-direction: column;
-}
-.premierhebergementprix
-{
-               display: flex
-               ; margin: 0.25rem 0.75rem 0.25rem 0.75 rem;
-}
-.activite
-{
+#hebergement{
                display: grid;
                column-gap: 2rem;
-               margin: 4rem 0;
+               margin: 1rem;
+               grid-template-columns: 6fr 3fr;
 }
-.activiteaMarseille
-{
-               grid-column: 1/-1;
+.hebergementselectione{
+               display: grid;
+               column-gap: 2rem;
+               row-gap: 2rem;
+               background-color: #f2f2f2;
+}
+.hebergement1{
+               display: grid;
+               background-color: white;
+               cursor: pointer;
+               width: 25%;
+}
+.hebergementphoto{
+               margin: auto;
+}
+.hebergementpopulaire{
+               display: grid;
+               background-color: #f2f2f2;
+}
+.hebergementpopulairetitre{
+               display: flex;
+               justify-content: space-between;
 }
 .footercolumn
 {
