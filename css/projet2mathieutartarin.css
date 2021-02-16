@@ -15,6 +15,13 @@ body
                display: flex;
                flex-direction: column;
 }   
+
+main{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+}
         
 .header
 {
@@ -124,16 +131,14 @@ h1
                color: blue;
 }
 #hebergement{
-               display: grid;
-               column-gap: 2rem;
-               margin: 1rem;
-               grid-template-columns: 6fr 3fr;
+               display: flex;
+               flex-direction: row;
+               
 }
 .hebergementselectione{
-               display: grid;
-               column-gap: 2rem;
-               row-gap: 2rem;
-               background-color: #f2f2f2;
+               display: flex;
+               flex-wrap: wrap;
+               flex-direction: row;
 }
 .toushebergement{
                display: flex;
@@ -152,8 +157,9 @@ h1
                margin: auto;
 }
 .hebergementpopulaire{
-               display: grid;
+               display: flex;
                background-color: #f2f2f2;
+               width: 20%;
 }
 .hebergementpopulairetitre{
                display: flex;
@@ -176,4 +182,14 @@ h1
 {
                display: block;
                margin: 1rem 0;
+}
+
+.colonne a{
+                display: block;
+               margin: 1rem 0;
+}
+
+.activite{
+    display: flex;
+    flex-direction: row;
 }
