@@ -180,6 +180,61 @@ h1
     flex-direction: row;
     background-color: white;
     margin: 2%;
+    align-self: center;
+    margin: 10%;
+}
+.activite{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 1530px;
+}
+.activite2{
+    display: flex;
+}
+.vieuxport{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 20px #0000002e;
+    width: 25%;
+    cursor: pointer;
+    border-radius: 2rem;
+}
+.vieuxportphoto{
+    position: relative;
+}
+.fortdepomegues{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 20px #0000002e;
+    width: 25%;
+    cursor: pointer;
+    border-radius: 2rem;
+}
+.fortdepomeguesphoto{
+    position: relative;
+}
+.lescalanques{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 20px #0000002e;
+    width: 25%;
+    cursor: pointer;
+    border-radius: 2rem;
+}
+.lescalanquesphoto{
+    position: relative;
+}
+.notredamedelagarde{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 20px #0000002e;
+    width: 25%;
+    cursor: pointer;
+    border-radius: 2rem;
+}
+.notredamedelagardephoto{
+    position: relative;
 }
 .footercolumn
 {
