@@ -136,6 +136,9 @@ h1
                display: flex;
                flex-direction: row;               
 }
+h2{
+    margin-left: 3%;
+}
 .hebergementselectione{
                display: flex;
                flex-wrap: wrap;
@@ -184,6 +187,7 @@ h1
     align-self: center;
     margin: 5%;
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    cursor: pointer;
 }
 .activite{
     display: flex;
@@ -228,7 +232,7 @@ h1
 }
 .activite3{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 .ilesdefrioul{
     display: flex;
@@ -236,6 +240,7 @@ h1
     box-shadow: 0 0 20px #0000002e;
     cursor: pointer;
     border-radius: 2rem;
+    margin-right: 2%;
 }
 .parclongchamp{
     display: flex;
@@ -266,9 +271,4 @@ h1
 .colonne a{
                 display: block;
                margin: 1rem 0;
-}
-
-.activite{
-    display: flex;
-    flex-direction: row;
 }
