@@ -161,6 +161,7 @@ h1
                cursor: pointer;
                margin: 2%;
                border-radius: 1.25rem;
+               padding: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 .hebergementphoto{
                margin: auto;
@@ -181,13 +182,13 @@ h1
     background-color: white;
     margin: 2%;
     align-self: center;
-    margin: 10%;
+    margin: 5%;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 .activite{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    max-width: 1530px;
 }
 .activite2{
     display: flex;
@@ -196,45 +197,52 @@ h1
     display: flex;
     flex-direction: column;
     box-shadow: 0 0 20px #0000002e;
-    width: 25%;
     cursor: pointer;
     border-radius: 2rem;
-}
-.vieuxportphoto{
-    position: relative;
+    margin-right: 2%;
+    margin-bottom: 2%;
 }
 .fortdepomegues{
     display: flex;
     flex-direction: column;
     box-shadow: 0 0 20px #0000002e;
-    width: 25%;
     cursor: pointer;
-    border-radius: 2rem;
-}
-.fortdepomeguesphoto{
-    position: relative;
-}
+    margin-right: 2%;
+    margin-bottom: 2%;
+}    
 .lescalanques{
     display: flex;
     flex-direction: column;
     box-shadow: 0 0 20px #0000002e;
-    width: 25%;
     cursor: pointer;
     border-radius: 2rem;
-}
-.lescalanquesphoto{
-    position: relative;
+    margin-right: 2%;
+    margin-bottom: 2%;
 }
 .notredamedelagarde{
     display: flex;
     flex-direction: column;
     box-shadow: 0 0 20px #0000002e;
-    width: 25%;
     cursor: pointer;
     border-radius: 2rem;
 }
-.notredamedelagardephoto{
-    position: relative;
+.activite3{
+    display: flex;
+    justify-content: center;
+}
+.ilesdefrioul{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 20px #0000002e;
+    cursor: pointer;
+    border-radius: 2rem;
+}
+.parclongchamp{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 20px #0000002e;
+    cursor: pointer;
+    border-radius: 2rem;
 }
 .footercolumn
 {
