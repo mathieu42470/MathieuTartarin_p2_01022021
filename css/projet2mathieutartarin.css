@@ -45,6 +45,10 @@ main{
                display: flex;
                justify-content: flex-end;
 }
+a{
+    text-decoration: none;
+    color: inherit;
+} 
 #menu:hover
 {
                color: blue;
@@ -132,6 +136,9 @@ h1
                font-weight: 900;
                color: blue;
 }
+.filtreicon{
+    color: blue;
+    background-color:#DEEBFF}
 #hebergement{
                display: flex;
                flex-direction: row;               
@@ -142,7 +149,7 @@ h2{
 .hebergementselectione{
                display: flex;
                flex-wrap: wrap;
-               flex-direction: row;
+               flex-direction: column;
                margin-right: 2%;
                border-radius: 1rem;
                background-color: #f2f2f2;
@@ -151,6 +158,9 @@ h2{
 .toushebergement{
                display: flex;
                align-items: center;
+}
+.fa-star{
+    color: blue;
 }
 .toushebergement2
 {
@@ -192,62 +202,23 @@ h2{
 .activite{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
 }
 .activite2{
     display: flex;
-}
-.vieuxport{
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0 0 20px #0000002e;
-    cursor: pointer;
-    border-radius: 2rem;
-    margin-right: 2%;
-    margin-bottom: 2%;
-}
-.fortdepomegues{
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0 0 20px #0000002e;
-    cursor: pointer;
-    margin-right: 2%;
-    margin-bottom: 2%;
-}    
-.lescalanques{
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0 0 20px #0000002e;
-    cursor: pointer;
-    border-radius: 2rem;
-    margin-right: 2%;
-    margin-bottom: 2%;
-}
-.notredamedelagarde{
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0 0 20px #0000002e;
-    cursor: pointer;
-    border-radius: 2rem;
+    flex-direction: row;
 }
 .activite3{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
 }
-.ilesdefrioul{
+.lieuactivite{
     display: flex;
     flex-direction: column;
     box-shadow: 0 0 20px #0000002e;
     cursor: pointer;
     border-radius: 2rem;
     margin-right: 2%;
-}
-.parclongchamp{
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0 0 20px #0000002e;
-    cursor: pointer;
-    border-radius: 2rem;
 }
 .footercolumn
 {
