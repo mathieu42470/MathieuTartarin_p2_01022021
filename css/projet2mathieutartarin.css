@@ -40,7 +40,7 @@ main{
 }
 #menu
 {
-               color:black;
+               color: black;
                padding: 2rem;
                display: flex;
                justify-content: flex-end;
@@ -55,7 +55,7 @@ a{
 }
 .menu2
 {
-               margin-right: 2rem;
+    margin-right: 2rem;
 }
 .recherche{
                margin: 2rem;
@@ -211,6 +211,7 @@ h2{
 .activite3{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 .lieuactivite{
     display: flex;
@@ -220,13 +221,21 @@ h2{
     border-radius: 2rem;
     margin-right: 2%;
 }
+.photoactivite{
+    height: 100%;
+    width: 100%;
+}
+.titreactivite{
+    padding-left: 2rem;
+}
 .footercolumn
 {
                width: 100%;
                display: flex;
                padding: 0 2rem;
                box-sizing: border-box;
-               margin: auto;
+               margin: 2rem 0 0 0;
+               background-color: #f2f2f2;
 }
 .colonne
 {
