@@ -2,12 +2,6 @@
                font-family: "raleway";
                src:url("../Polices/Raleway-VariableFont_wght.ttf")
 }
-
-html
-{
-               
-               line-height: 1.15;
-}
 body
 {
                background-color: white;
@@ -45,6 +39,10 @@ main{
                display: flex;
                justify-content: flex-end;
 }
+.menu2{
+    margin: 0 2rem 0 2rem;
+    color: blue;
+}
 a{
     text-decoration: none;
     color: inherit;
@@ -53,12 +51,9 @@ a{
 {
                color: blue;
 }
-.menu2
-{
-    margin-right: 2rem;
-}
 .recherche{
-               margin: 2rem;
+               margin: 1rem;
+               font-size: 20px;
 }
 h1
 {
@@ -71,6 +66,11 @@ h1
                max-width: 100%;
                overflow: auto;
                margin-right: 1rem;
+               font-size: 30px;
+}
+.recherchelieuicon{
+    border-radius: 50%;
+    background-color: grey;
 }
 .recherchelieubutton
 {
@@ -135,6 +135,8 @@ h1
                margin-right: 2rem;
                font-weight: 900;
                color: blue;
+               border-radius: 100%;
+               background-color: khaki;
 }
 .filtreicon{
     color: blue;
