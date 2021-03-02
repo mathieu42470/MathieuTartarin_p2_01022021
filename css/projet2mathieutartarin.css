@@ -19,7 +19,8 @@ main{
         
 .header
 {
-     display: grid;
+     display: flex;
+     justify-content: space-between;
      max-height: 1440px;
      align-items: center;
      grid-template-columns: auto 1fr auto;
@@ -30,7 +31,7 @@ main{
 {
      border-style: none;
      padding: 0 2rem;
-               height: 2.813rem;
+     height: 100%;
 }
 #menu
 {
@@ -38,8 +39,15 @@ main{
                padding: 2rem;
                display: flex;
                justify-content: flex-end;
+               height: 100%;
 }
 .menu2{
+    display: flex;
+    margin: 0 2rem 0 2rem;
+    color: blue;
+    border-top: 3px solid blue;
+}
+.menu3{
     margin: 0 2rem 0 2rem;
     color: blue;
 }
@@ -63,14 +71,21 @@ h1
 .recherchelieu
 {
                display: inline-flex;
-               max-width: 100%;
+               width: 100%;
                overflow: auto;
                margin-right: 1rem;
                font-size: 30px;
 }
 .recherchelieuicon{
-    border-radius: 50%;
-    background-color: grey;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 0.75rem 1rem;
+     background-color: #f2f2f2;
+     border-radius: 1rem 0 0 1 rem;
+}
+.recherchelieu2{
+    padding: 0 0 0 2%;
 }
 .recherchelieubutton
 {
@@ -79,6 +94,8 @@ h1
                cursor: pointer;
                border: none;
                border-radius: 0 1rem 1rem 0;
+               font-weight: bold;
+               padding: 0 2rem 0 2rem;
                font-weight: bold;
 }
 .filtre
@@ -140,7 +157,21 @@ h1
 }
 .filtreicon{
     color: blue;
-    background-color:#DEEBFF}
+    background-color:#DEEBFF
+}
+.rechercheresultaticon{
+     min-width: 2rem;
+     min-height: 2rem;
+     background-color: wheat;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 100%;
+     margin-right: 3%;
+}
+.fa-info{
+    color: blue;
+}
 #hebergement{
                display: flex;
                flex-direction: row;               
@@ -213,9 +244,26 @@ h2{
 .activite3{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
 }
 .lieuactivite{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 20px #0000002e;
+    cursor: pointer;
+    border-radius: 2rem;
+    margin-right: 2%;
+}
+.lieuactivite2{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 20px #0000002e;
+    cursor: pointer;
+    border-radius: 2rem;
+    margin-right: 2%;
+}
+.lieuactivite1{
     display: flex;
     flex-direction: column;
     box-shadow: 0 0 20px #0000002e;
