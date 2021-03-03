@@ -188,7 +188,7 @@ h2{
                margin-right: 2%;
                border-radius: 1rem;
                background-color: #f2f2f2;
-               width: 75%;
+               width: 70%;
 }
 .toushebergement{
                display: flex;
@@ -222,7 +222,7 @@ h2{
                display: flex;
                flex-direction: column;
                background-color: #f2f2f2;
-               width: 25%;
+               width: 30%;
                border-radius: 1rem;
 }
 .iconepoplairetitre{
@@ -243,6 +243,9 @@ h2{
     margin: 5%;
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
     cursor: pointer;
+    border-radius: 1rem;
+}
+.hebergementpopulairephoto{
     border-radius: 1rem;
 }
 .activite{
