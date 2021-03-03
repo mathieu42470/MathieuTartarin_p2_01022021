@@ -44,12 +44,12 @@ main{
 .menu2{
     display: flex;
     margin: 0 2rem 0 2rem;
-    color: blue;
-    border-top: 3px solid blue;
+    color: #0065fc;
+    border-top: 3px solid #0065fc;
 }
 .menu3{
     margin: 0 2rem 0 2rem;
-    color: blue;
+    color: #0065fc;
 }
 a{
     text-decoration: none;
@@ -57,7 +57,7 @@ a{
 } 
 #menu:hover
 {
-               color: blue;
+               color: #0065fc;
 }
 .recherche{
                margin: 1rem;
@@ -86,10 +86,11 @@ h1
 }
 .recherchelieu2{
     padding: 0 0 0 2%;
+    font-weight: bold;
 }
 .recherchelieubutton
 {
-               background-color: blue;
+               background-color:#0065fc;
                color: white;
                cursor: pointer;
                border: none;
@@ -124,7 +125,7 @@ h1
 .filtre2:hover
 {
                background-color: white;
-               color: blue;
+               color: #0065fc;
 }
 .filtreicon
 {
@@ -151,26 +152,27 @@ h1
 {
                margin-right: 2rem;
                font-weight: 900;
-               color: blue;
+               color: #0065fc;
                border-radius: 100%;
                background-color: khaki;
 }
 .filtreicon{
-    color: blue;
+    color: #0065fc;
     background-color:#DEEBFF
 }
 .rechercheresultaticon{
      min-width: 2rem;
      min-height: 2rem;
-     background-color: wheat;
+     background-color: #fafafa;
      display: flex;
      justify-content: center;
      align-items: center;
      border-radius: 100%;
      margin-right: 3%;
+     border: solid 1px ;
 }
 .fa-info{
-    color: blue;
+    color: #0065fc;
 }
 #hebergement{
                display: flex;
@@ -190,15 +192,15 @@ h2{
 }
 .toushebergement{
                display: flex;
-               align-items: center;
+               justify-content: space-between;
 }
 .fa-star{
-    color: blue;
+    color: #0065fc;
 }
 .toushebergement2
 {
                display: flex;
-               align-items: center;
+               justify-content: space-between;
 }
 .hebergement1{
                display: flex;
@@ -211,12 +213,22 @@ h2{
 }
 .hebergementphoto{
                margin: auto;
+               border-radius: 1rem;
+}
+.afficherplus{
+    font-weight: bold;
 }
 .hebergementpopulaire{
                display: flex;
                flex-direction: column;
                background-color: #f2f2f2;
                width: 25%;
+               border-radius: 1rem;
+}
+.iconepoplairetitre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .hebergementpopulairetitre{
                display: flex;
@@ -231,6 +243,7 @@ h2{
     margin: 5%;
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
     cursor: pointer;
+    border-radius: 1rem;
 }
 .activite{
     display: flex;
