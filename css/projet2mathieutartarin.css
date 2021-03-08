@@ -48,6 +48,7 @@ main{
 .menu3{
     margin: 0 2rem 0 2rem;
     color: #0065fc;
+    font-weight: bold;
 }
 a{
     text-decoration: none;
@@ -81,6 +82,8 @@ h1
      padding: 0.75rem 1rem;
      background-color: #f2f2f2;
      border-radius: 1rem 0 0 1 rem;
+     border-top-left-radius: 1rem;
+     border-bottom-left-radius: 1rem;
 }
 .recherchelieu2{
     padding: 0 0 0 2%;
@@ -207,12 +210,18 @@ h2{
                cursor: pointer;
                margin: 1%;
                border-radius: 1.25rem;
+               padding: 0.5%;
 }
 .hebergementphoto{
              width: 248px;
              height: 114px;
              border-top-left-radius: 1rem;
              border-top-right-radius: 1rem;
+}
+.hebergementnomprix{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .afficherplus{
     font-weight: bold;
@@ -224,10 +233,9 @@ h2{
                width: 30%;
                border-radius: 1rem;
 }
-.iconepoplairetitre{
+.fa-chart-line{
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 .hebergementpopulairetitre{
                display: flex;
@@ -264,11 +272,11 @@ h2{
     display: flex;
     flex-direction: row;
     border-radius: 1rem;
+    justify-content: space-between;
 }
 .activite3{
     display: flex;
     flex-direction: column;
-    margin-right: 1%;
     justify-content: space-between;
     overflow: auto;
     border-radius: 1rem;
