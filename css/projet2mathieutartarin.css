@@ -221,7 +221,6 @@ h2{
 .hebergementnomprix{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 .afficherplus{
     font-weight: bold;
@@ -233,13 +232,14 @@ h2{
                width: 30%;
                border-radius: 1rem;
 }
-.fa-chart-line{
-    display: flex;
-    justify-content: center;
-}
 .hebergementpopulairetitre{
                display: flex;
                justify-content: space-between;
+               align-items: center;
+               margin: 0 2% 0 0;
+}
+.fa-chart-line{
+    font-size: 25px;
 }
 .hebergementpopulaire3{
     display: flex;
