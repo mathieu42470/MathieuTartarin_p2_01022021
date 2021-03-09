@@ -88,6 +88,10 @@ h1
 .recherchelieu2{
     padding: 0 0 0 2%;
     font-weight: bold;
+    border-left: none;
+    border-right: none;
+    border-top: #f2f2f2 1px solid ;
+    border-bottom: #f2f2f2 1px solid;
 }
 .recherchelieubutton
 {
@@ -190,6 +194,7 @@ h2{
                border-radius: 1rem;
                background-color: #f2f2f2;
                width: 70%;
+               height: 38%;
 }
 .toushebergement{
                display: flex;
@@ -197,11 +202,6 @@ h2{
 }
 .fa-star{
     color: #0065fc;
-}
-.toushebergement2
-{
-               display: flex;
-               justify-content: space-between;
 }
 .hebergement1{
                display: flex;
@@ -224,6 +224,7 @@ h2{
 }
 .afficherplus{
     font-weight: bold;
+    margin: 2%;
 }
 .hebergementpopulaire{
                display: flex;
@@ -311,32 +312,31 @@ h2{
     width: 320px;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
+    object-fit: cover;
 }
 .photoactivite2{
     height: 229px;
     width: 320px;
+    object-fit: cover;
 }
 .photoactivite3{
     height: 164px;
     width: 320px;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
-}
-.photoactivite4{
-    height: 488px;
-    width: 320px;
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
+    object-fit: cover;
 }
 .photoactivite5{
     height: 164px;
     width: 320px;
+    object-fit: cover;
 }
 .photoactivite6{
     height: 228px;
     width: 320px;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
+    object-fit: cover;
 }
 .titreactivite{
     padding-left: 2rem;
