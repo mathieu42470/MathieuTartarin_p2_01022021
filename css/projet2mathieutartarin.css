@@ -17,7 +17,7 @@ main{
     flex-direction: column;
 }
         
-.header
+header
 {
      display: flex;
      justify-content: space-between;
@@ -103,6 +103,10 @@ h1
                font-weight: bold;
                padding: 0 2rem 0 2rem;
                font-weight: bold;
+}
+.fa-search{
+    display: none;
+    visibility: hidden;
 }
 .filtre
 {
@@ -367,6 +371,35 @@ h2{
 }
 
 @media screen and (max-width: 600px)
+{
+     header{
+         display: flex;
+         flex-flow: column wrap-reverse;
+     }
+     main{
+         display: flex;
+         flex-direction: column;
+     }     
+     .filtre{
+         display: flex;
+         flex-direction: column;
+     }
+     .recherchelieubutton2{
+         display: none;
+         visibility: hidden;
+     }
+     .fa-search{
+         display: flex;
+         visibility: visible;
+     }
+     #hebergement{
+         display: flex;
+         flex-direction: column-reverse;
+     }
+}
 
 
-@media screen and (min-width: 600px) (max-width: 1024px)
+@media screen and (min-width: 600px) and (max-width: 1024px)
+{
+
+}
