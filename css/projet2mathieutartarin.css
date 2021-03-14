@@ -46,8 +46,8 @@ header
     border-top: 3px solid #0065fc;
 }
 .menu3{
-    margin: 0 2rem 0 2rem;
     color: #0065fc;
+    margin: 0 2rem 0 2rem;
     font-weight: bold;
 }
 a{
@@ -372,7 +372,18 @@ h2{
 
 @media screen and (max-width: 600px)
 {
+     body{
+         width: 100%;
+         margin: 0 0 0 0;
+     }
+     .logohead{
+         width: 30%;
+     }
      header{
+         display: flex;
+         flex-direction: column;
+     }
+     .menu{
          display: flex;
          flex-flow: column wrap-reverse;
      }
@@ -395,6 +406,52 @@ h2{
      #hebergement{
          display: flex;
          flex-direction: column-reverse;
+     }
+     .hebergementselectione{
+         display: flex;
+         flex-direction: column;
+     }
+     .toushebergement{
+         display: flex;
+         flex-direction: column;
+     }
+     .activite{
+         display: flex;
+         flex-direction: column;
+     }
+     .activite2{
+         display: flex;
+         flex-direction: column;
+     }
+     .photoactivite1{
+         height:133px ;
+         width: 536px;
+         object-fit: cover;
+     }
+     .photoactivite2{
+        height: 133px;
+        width: 536px;
+        object-fit: cover;
+     }
+     .photoactivite3{
+        height: 133px;
+        width: 536px ;
+        object-fit: cover;
+     }
+     .photoactivite5{
+        height: 133px;
+        width:536px ;
+        object-fit: cover;
+     }
+     .photoactivite6{
+        height: 133px;
+        width: 536px;
+        object-fit: cover;
+     }
+     .footercolumn{
+         display: flex;
+         flex-direction: column;
+         width: 100%;
      }
 }
 
