@@ -128,7 +128,6 @@ h1
                border: 2px solid #d9d9d9;
                border-radius: 2rem;
                cursor: pointer;
-               transition-duration: 0.1s;
                font-weight: bold;
 }
 .filtre2:hover
@@ -395,6 +394,11 @@ h2{
          display: flex;
          flex-direction: column;
      }
+     .filtre2{
+         display: flex;
+         flex-direction: row;
+         width: 40%;
+     }
      .recherchelieubutton2{
          display: none;
          visibility: hidden;
@@ -407,13 +411,27 @@ h2{
          display: flex;
          flex-direction: column-reverse;
      }
+     .hebergementpopulaire{
+         width: 100%;
+     }
+     .hebergementpopulairephoto{
+         height: 145px;
+         width: 200px;
+         object-fit: cover;
+     }
      .hebergementselectione{
          display: flex;
          flex-direction: column;
+         width: 100%;
      }
      .toushebergement{
          display: flex;
          flex-direction: column;
+     }
+     .hebergementphoto{
+         width: 520px;
+         height: 145px;
+         object-fit: cover;
      }
      .activite{
          display: flex;
@@ -422,6 +440,15 @@ h2{
      .activite2{
          display: flex;
          flex-direction: column;
+     }
+     .lieuactivite{
+         margin: 10px 0 10px 0;
+     }
+     .lieuactivite1{
+        margin: 10px 0 10px 0;
+     }
+     .lieuactivite2{
+        margin: 10px 0 10px 0;
      }
      .photoactivite1{
          height:133px ;
