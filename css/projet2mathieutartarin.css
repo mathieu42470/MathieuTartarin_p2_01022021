@@ -197,11 +197,11 @@ h2{
                border-radius: 1rem;
                background-color: #f2f2f2;
                width: 70%;
-               height: 38%;
 }
 .toushebergement{
                display: flex;
                justify-content: space-between;
+               width: 100%;
 }
 .fa-star{
     color: #0065fc;
@@ -214,9 +214,10 @@ h2{
                margin: 1%;
                border-radius: 1.25rem;
                padding: 0.5%;
+               width: 100%;
 }
 .hebergementphoto{
-             width: 248px;
+             width: 100%;
              height: 114px;
              border-top-left-radius: 1rem;
              border-top-right-radius: 1rem;
@@ -259,7 +260,7 @@ h2{
 .hebergementpopulairephoto{
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
-    width: 125px;
+    width: 100%;
     height: 131px;
 }
 .hebergementpopulaireprixnom{
@@ -271,12 +272,14 @@ h2{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    width: 100%;
 }
 .activite2{
     display: flex;
     flex-direction: row;
     border-radius: 1rem;
     justify-content: space-between;
+    width: 100%;
 }
 .activite3{
     display: flex;
@@ -284,6 +287,7 @@ h2{
     justify-content: space-between;
     overflow: auto;
     border-radius: 1rem;
+    width: 100%;
     
 }
 .lieuactivite{
@@ -293,6 +297,7 @@ h2{
     cursor: pointer;
     border-radius: 2rem;
     margin-right: 1%;
+    width: 100%;
 }
 .lieuactivite2{
     display: flex;
@@ -301,6 +306,7 @@ h2{
     cursor: pointer;
     border-radius: 2rem;
     margin-right: 2%;
+    width: 100%;
 }
 .lieuactivite1{
     display: flex;
@@ -309,34 +315,35 @@ h2{
     cursor: pointer;
     border-radius: 2rem;
     margin-right: 2%;
+    width: 100%;
 }
 .photoactivite1{
     height: 488px;
-    width: 320px;
+    width: 100%;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     object-fit: cover;
 }
 .photoactivite2{
     height: 229px;
-    width: 320px;
+    width: 100%;
     object-fit: cover;
 }
 .photoactivite3{
     height: 164px;
-    width: 320px;
+    width: 100%;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     object-fit: cover;
 }
 .photoactivite5{
     height: 164px;
-    width: 320px;
+    width: 100%;
     object-fit: cover;
 }
 .photoactivite6{
     height: 228px;
-    width: 320px;
+    width: 100%;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     object-fit: cover;
@@ -369,7 +376,7 @@ h2{
                margin: 1rem 0;
 }
 
-@media screen and (max-width: 600px)
+@media (max-width: 375px)
 {
      body{
          width: 100%;
@@ -416,7 +423,7 @@ h2{
      }
      .hebergementpopulairephoto{
          height: 145px;
-         width: 200px;
+         width: 100%;;
          object-fit: cover;
      }
      .hebergementselectione{
@@ -427,19 +434,22 @@ h2{
      .toushebergement{
          display: flex;
          flex-direction: column;
+         width: 100%;
      }
      .hebergementphoto{
-         width: 520px;
+         width: 100%;
          height: 145px;
          object-fit: cover;
      }
      .activite{
          display: flex;
          flex-direction: column;
+         width: 100%;
      }
      .activite2{
          display: flex;
          flex-direction: column;
+         width: 100%;
      }
      .lieuactivite{
          margin: 10px 0 10px 0;
@@ -452,28 +462,28 @@ h2{
      }
      .photoactivite1{
          height:133px ;
-         width: 536px;
+         width: 100%;
          object-fit: cover;
      }
      .photoactivite2{
         height: 133px;
-        width: 536px;
+        width: 100%;
         object-fit: cover;
      }
      .photoactivite3{
         height: 133px;
-        width: 536px ;
+        width: 100%;
         object-fit: cover;
      }
      .photoactivite5{
-        height: 133px;
-        width:536px ;
-        object-fit: cover;
+         height: 133px;
+         width: 100%;
+         object-fit: cover;
      }
      .photoactivite6{
-        height: 133px;
-        width: 536px;
-        object-fit: cover;
+         height: 133px;
+         width: 100%;
+         object-fit: cover;
      }
      .footercolumn{
          display: flex;
@@ -483,7 +493,7 @@ h2{
 }
 
 
-@media screen and (min-width: 600px) and (max-width: 1024px)
+@media (min-width: 375px) and (max-width: 600px)
 {
 
 }
