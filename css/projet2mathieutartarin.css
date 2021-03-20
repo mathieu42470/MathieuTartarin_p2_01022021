@@ -20,8 +20,8 @@ main{
 header
 {
      display: flex;
-     justify-content: space-between;
      align-items: center;
+     align-content: space-between;
      grid-template-columns: auto 1fr auto;
      margin-right: 5%;
      margin-left: 5%;
@@ -35,18 +35,18 @@ header
 }
 #menu
 {
-               color: black;
-               display: flex;
-               align-content: flex-end;
-               height: 100%;
+      color: black;
+      display: flex;
+      height: 50px;
 }
 .menue{
      display: flex;
      flex-direction: row;
+     align-items: center;
 }
 .menu2{
     display: flex;
-    margin: 0 2rem 0 0;
+    margin: 0 10% 0 0;
     color: #0065fc;
     border-top: 3px solid #0065fc;
 }
@@ -278,6 +278,7 @@ h2{
     flex-wrap: wrap;
     flex-direction: column;
     width: 100%;
+    justify-content: space-between;
 }
 .activite2{
     display: flex;
@@ -285,6 +286,7 @@ h2{
     border-radius: 1rem;
     justify-content: space-between;
     width: 100%;
+    overflow: auto;
 }
 .activite3{
     display: flex;
@@ -292,8 +294,7 @@ h2{
     justify-content: space-between;
     overflow: auto;
     border-radius: 1rem;
-    width: 100%;
-    
+    width: 100%;   
 }
 .lieuactivite{
     display: flex;
@@ -301,7 +302,7 @@ h2{
     box-shadow: 0 0 20px #0000002e;
     cursor: pointer;
     border-radius: 2rem;
-    margin-right: 1%;
+    margin: 0 1% 0 1%;
     width: 100%;
 }
 .lieuactivite2{
@@ -400,8 +401,7 @@ h2{
      }
      #menu{
          display: flex;
-         flex-direction: column;
-         flex-wrap: wrap-reverse;
+         flex-grow: column wrap-reverse;
      }
      .menue{
          display: flex;
@@ -430,6 +430,7 @@ h2{
      #hebergement{
          display: flex;
          flex-direction: column-reverse;
+         background-color: white;
      }
      .hebergementpopulaire{
          width: 100%;
@@ -444,11 +445,13 @@ h2{
          display: flex;
          flex-direction: column;
          width: 100%;
+         background-color: white;
      }
      .toushebergement{
          display: flex;
          flex-direction: column;
          width: 100%;
+         background-color: #f2f2f2;
      }
      .hebergementphoto{
          width: 100%;
