@@ -38,6 +38,7 @@ header
       color: black;
       display: flex;
       height: 50px;
+      align-content: space-between;
 }
 .menue{
      display: flex;
