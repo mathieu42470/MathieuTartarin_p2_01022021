@@ -33,12 +33,12 @@ header
      padding: 0 2rem;
      height: 100%;
 }
-#menu
+.menu
 {
       color: black;
       display: flex;
       height: 50px;
-      align-content: space-between;
+      align-content: flex-end;
 }
 .menue{
      display: flex;
@@ -54,6 +54,9 @@ header
 .menu3{
     color: #0065fc;
     font-weight: bold;
+    display: flex;
+    align-items: center;
+    align-content: flex-end;
 }
 a{
     text-decoration: none;
