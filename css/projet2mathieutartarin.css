@@ -20,11 +20,9 @@ main{
 header
 {
      display: flex;
-     align-items: center;
      align-content: space-between;
-     margin-right: 5%;
      margin-left: 5%;
-     width: 100%;
+     width: 90%;
      height: 100%;
 }
 .logohead
@@ -39,23 +37,21 @@ header
 {
       color: black;
       display: flex;
-      height: 50px;
-      align-content: space-between;
-      width: 50%;
-      margin: 0 10% 0 10%;
+      justify-content: end;
+      width: 100%;
 }
 .menue{
      display: flex;
      flex-direction: row;
      align-items: center;
-     margin: 0 10% 0 10%;
-     width: 25%;
+     width: 20%;
+     justify-content: space-evenly;
 }
 .menu2{
     display: flex;
-    margin: 0 10% 0 0;
     color: #0065fc;
     border-top: 3px solid #0065fc;
+    padding-top: 5%;
 }
 .menu3{
     color: #0065fc;
@@ -63,12 +59,13 @@ header
     display: flex;
     align-items: center;
     align-content: flex-end;
-    margin: 0 10% 0 10%;
     width: 25%;
+    padding-top: 1%;
 }
 a{
     text-decoration: none;
     color: inherit;
+    padding-top: 5%;
 } 
 #menu:hover
 {
@@ -76,7 +73,7 @@ a{
 }
 .recherche{
                margin: 1rem;
-               font-size: 20px;
+               font-size: 15px;
 }
 h1
 {
@@ -223,6 +220,9 @@ h2{
 .fa-star{
     color: #0065fc;
 }
+.etoile2{
+    color: #8f8e8e;
+}
 .hebergement1{
                display: flex;
                flex-direction: column;
@@ -238,6 +238,7 @@ h2{
              height: 114px;
              border-top-left-radius: 1rem;
              border-top-right-radius: 1rem;
+             object-fit: cover;
 }
 .hebergementnomprix{
     display: flex;
@@ -277,13 +278,15 @@ h2{
 .hebergementpopulairephoto{
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
-    width: 100%;
-    height: 131px;
+    width: 35%;
+    height: 161px;
+    object-fit: cover;
 }
 .hebergementpopulaireprixnom{
     display: flex;
     flex-direction: column;
     margin-left: 1%;
+    width: 50%;
 }
 .activite{
     display: flex;
