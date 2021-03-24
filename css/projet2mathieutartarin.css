@@ -317,7 +317,7 @@ h2{
     box-shadow: 0 0 20px #0000002e;
     cursor: pointer;
     border-radius: 2rem;
-    margin: 0 1% 0 1%;
+    margin: 0 1% 2% 1%;
     width: 100%;
 }
 .lieuactivite2{
@@ -328,6 +328,7 @@ h2{
     border-radius: 2rem;
     margin-right: 2%;
     width: 100%;
+    margin-bottom: 7%;
 }
 .lieuactivite1{
     display: flex;
@@ -397,38 +398,41 @@ h2{
                margin: 1rem 0;
 }
 
-@media (max-width: 375px)
+@media (max-width: 376px)
 {
      body{
          width: 100%;
          margin: 0 0 0 0;
+         font-size: 20px;
      }
      header{
          display: flex;
          height: 100px;
          width: 100%;
+         flex-wrap: wrap;
+         justify-content: space-between;
      }
      .logohead{
          display: flex;
          align-items: flex-start;
-         width: 50%;
+         width: 25%;
          height: 50%;
      }
      .menu{
          display: flex;
-         flex-flow: column-reverse wrap-reverse;
+         flex-flow: column-reverse wrap;
          height: 50%;
      }
      .menue{
          display: flex;
          flex-direction: row;
-         align-content: space-between;
+         align-content: space-around;
          width: 100%;
          height: 50%;
      }
      .menu3{
          display: flex;
-         align-self: flex-end;
+         order: 1;
          width: 50%;
          height: 50%;
      }
@@ -463,7 +467,7 @@ h2{
      }
      .hebergementpopulairephoto{
          height: 165px;
-         width: 100%;;
+         width: 40%;;
          object-fit: cover;
      }
      .hebergementselectione{
@@ -535,7 +539,7 @@ h2{
 }
 
 
-@media (min-width: 375px) and (max-width: 600px)
+@media (min-width: 376px) and (max-width: 600px)
 {
 
 }
