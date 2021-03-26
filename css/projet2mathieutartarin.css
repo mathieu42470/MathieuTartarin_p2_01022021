@@ -541,7 +541,142 @@ h2{
 
 @media (min-width: 376px) and (max-width: 600px)
 {
-
+    body{
+        width: 100%;
+        margin: 0 0 0 0;
+        font-size: 20px;
+    }
+    header{
+        display: flex;
+        height: 100px;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .logohead{
+        display: flex;
+        align-items: flex-start;
+        width: 25%;
+        height: 50%;
+    }
+    .menu{
+        display: flex;
+        flex-flow: column-reverse wrap;
+        height: 50%;
+    }
+    .menue{
+        display: flex;
+        flex-direction: row;
+        align-content: space-around;
+        width: 100%;
+        height: 50%;
+    }
+    .menu3{
+        display: flex;
+        order: 1;
+        width: 50%;
+        height: 50%;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+    }   
+    .filtre{
+        display: flex;
+        flex-direction: column;
+    }
+    .filtre2{
+        display: flex;
+        flex-direction: row;
+    }
+    .recherchelieubutton2{
+        display: none;
+        visibility: hidden;
+    }
+    .fa-search{
+        display: flex;
+        visibility: visible;
+    }
+    #hebergement{
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: white;
+    }
+    .hebergementpopulaire{
+        width: 100%;
+        font-size: 14px;
+    }
+    .hebergementpopulairephoto{
+        height: 165px;
+        width: 40%;;
+        object-fit: cover;
+    }
+    .hebergementselectione{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: white;
+    }
+    .toushebergement{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: #f2f2f2;
+    }
+    .hebergementphoto{
+        width: 100%;
+        height: 145px;
+        object-fit: cover;
+    }
+    .activite{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+     .activite2{
+         display: flex;
+         flex-direction: column;
+         width: 100%;
+     }
+     .lieuactivite{
+        margin: 10px 0 10px 0;
+    }
+    .lieuactivite1{
+        margin: 10px 0 10px 0;
+     }
+     .lieuactivite2{
+        margin: 10px 0 10px 0;
+     }
+     .photoactivite1{
+        height:133px ;
+        width: 100%;
+        object-fit: cover;
+    }
+    .photoactivite2{
+        height: 133px;
+        width: 100%;
+        object-fit: cover;
+     }
+     .photoactivite3{
+        height: 133px;
+        width: 100%;
+        object-fit: cover;
+     }
+     .photoactivite5{
+        height: 133px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .photoactivite6{
+        height: 133px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .footercolumn{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
 }
 
 @media (min-width: 600px) and (max-width: 1024px)
