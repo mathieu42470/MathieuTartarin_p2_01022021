@@ -210,7 +210,7 @@ h2{
                margin-right: 2%;
                border-radius: 1rem;
                background-color: #f2f2f2;
-               width: 70%;
+               width: 65%;
 }
 .toushebergement{
                display: flex;
@@ -221,7 +221,7 @@ h2{
     color: #0065fc;
 }
 .etoile2{
-    color: #8f8e8e;
+    color: #d2d2d2;
 }
 .hebergement1{
                display: flex;
@@ -252,7 +252,7 @@ h2{
                display: flex;
                flex-direction: column;
                background-color: #f2f2f2;
-               width: 30%;
+               width: 35%;
                border-radius: 1rem;
 }
 .hebergementpopulairetitre{
@@ -385,7 +385,7 @@ h2{
 .colonne
 {
                width: 30%;
-               padding: 2rem 2rem;
+               padding-left: 7%;
 }
 .colonnepied
 {
