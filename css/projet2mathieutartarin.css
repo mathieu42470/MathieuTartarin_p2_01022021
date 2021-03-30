@@ -54,16 +54,17 @@ header
 }
 .menu2{
     display: flex;
-    color: #0065fc;
-    border-top: 3px solid #0065fc;
     margin: 2%;
+}
+a[href="#hebergement"] {
+    border-top: 3px #0065fc solid;
 }
 a{
     text-decoration: none;
     color: inherit;
     padding-top: 5%;
 } 
-#menu:hover
+.menu2:hover
 {
                color: #0065fc;
 }
@@ -436,12 +437,12 @@ h2{
      }
      .menu2{
          margin: 3%;
-        
-         
-         
-         
+         padding: 0 0 0 0;    
      }
-    
+     a[href="#hebergement"] {
+         border-top: none;
+         border-bottom: 3px #0065fc solid;
+     } 
      main{
          display: flex;
          flex-direction: column;
@@ -487,6 +488,10 @@ h2{
          flex-direction: column;
          width: 100%;
          background-color: #f2f2f2;
+     }
+     .hebergement1{
+         margin: 2% 0 2% 0;
+         width: 95%;
      }
      .hebergementphoto{
          width: 100%;
