@@ -592,6 +592,10 @@ h2{
         margin: 3%;
         padding: 0 0 0 0;    
     }
+    a[href="#hebergement"] {
+        border-top: none;
+        border-bottom: 3px #0065fc solid;
+    } 
     main{
         display: flex;
         flex-direction: column;
@@ -700,5 +704,157 @@ h2{
 
 @media (min-width: 600px) and (max-width: 1024px)
 {
-
+    body{
+        width: 100%;
+        margin: 0 0 0 0;
+        font-size: 20px;
+    }
+    header{
+         display: flex;
+         margin-left: 5%;
+          width: 90%;
+         height: 100%;
+     }
+     .header1{
+         width: 100%;
+         display: flex;
+         flex-direction: row;
+         justify-content: space-between;
+     }
+     .logohead{
+         display: flex;
+         border-style: none;   
+     }
+     .menu
+     {
+         color: black;
+         display: flex;
+         justify-content: end;
+         width: 30%;
+         flex-direction: row;
+     }
+     .menue{
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         width: 20%;
+         justify-content: space-evenly;
+     }
+     .menu2{
+         display: flex;
+         margin: 2%;
+     }
+     a[href="#hebergement"] {
+         border-top: 3px #0065fc solid;
+     }
+    main{
+        display: flex;
+        flex-direction: column;
+    }   
+    .filtre{
+        display: flex;
+        flex-direction: column;
+    }
+    .filtretous{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .filtre2{
+        display: flex;
+        flex-direction: row;
+    }
+    .recherchelieubutton{
+               background-color:#0065fc;
+               color: white;
+               cursor: pointer;
+               border: none;
+               border-radius: 0 1rem 1rem 0;
+               font-weight: bold;
+               padding: 0 2rem 0 2rem;
+               font-weight: bold;
+     }
+     .fa-search{
+         display: none;
+         visibility: hidden;
+     }
+    #hebergement{
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: white;
+    }
+    .hebergementpopulaire{
+        width: 100%;
+        font-size: 14px;
+    }
+    .hebergementpopulairephoto{
+        height: 165px;
+        width: 40%;;
+        object-fit: cover;
+    }
+    .hebergementselectione{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: white;
+    }
+    .toushebergement{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: #f2f2f2;
+    }
+    .hebergementphoto{
+        width: 100%;
+        height: 145px;
+        object-fit: cover;
+    }
+    .activite{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+     .activite2{
+         display: flex;
+         flex-direction: column;
+         width: 100%;
+     }
+     .lieuactivite{
+        margin: 10px 0 10px 0;
+    }
+    .lieuactivite1{
+        margin: 10px 0 10px 0;
+     }
+     .lieuactivite2{
+        margin: 10px 0 10px 0;
+     }
+     .photoactivite1{
+        height:133px ;
+        width: 100%;
+        object-fit: cover;
+    }
+    .photoactivite2{
+        height: 133px;
+        width: 100%;
+        object-fit: cover;
+     }
+     .photoactivite3{
+        height: 133px;
+        width: 100%;
+        object-fit: cover;
+     }
+     .photoactivite5{
+        height: 133px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .photoactivite6{
+        height: 133px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .footercolumn{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
 }
