@@ -67,6 +67,7 @@ a[href="#activité"]{
 .inscrire{
     color: #0065fc;
     padding-top: 6%;
+    font-weight: bold;
 }
 a{
     text-decoration: none;
@@ -149,7 +150,6 @@ h1
 {
                display: flex;
                align-items: center;
-               margin-right: 2 rem;
                border: 2px solid #d9d9d9;
                border-radius: 2rem;
                cursor: pointer;
@@ -465,18 +465,19 @@ h2{
          border-top: none;
          border-bottom: 3px #0065fc solid;
          width: 100%;
-         padding: 0%;
+         padding: 0% 0 8% 0;
          
      }
      a[href="#activité"] {
          border-top: none;
          border-bottom: 3px #f2f2f2 solid;
          width: 100%;
-         padding: 0%;
+         padding: 0% 0 8% 0;
      }
      .inscrire{
          display: flex;
          margin-left: 70%;
+         font-weight: bold;
      }
      main{
          display: flex;
@@ -625,13 +626,14 @@ h2{
         width: 100%;
         flex-wrap: wrap;
         justify-content: space-between;
-    }
-    .logohead{
+     }
+     .logohead{
         display: flex;
         align-items: flex-start;
         width: 30%;   
-    }
-    .header1{
+        height: 40px;  
+     }
+     .header1{
         flex-wrap: wrap;
         flex-direction:row;
         display: flex;
@@ -643,16 +645,42 @@ h2{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap-reverse;
-        width: 80%;   
-    }
-    .menu2{
-        margin: 3%;
-        padding: 0 0 0 0;    
-    }
-    a[href="#hebergement"] {
-        border-top: none;
-        border-bottom: 3px #0065fc solid;
-    } 
+        width: 100%;   
+        margin-top: -22%;   
+     }
+     .menue{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+     }
+     .menu2{
+         width: 100%;
+         padding: 0 0 0 0;
+         margin: 0;
+         justify-content: center;    
+     }
+     a[href="#hebergement"] {
+         border-top: none;
+         border-bottom: 3px #0065fc solid;
+         width: 100%;
+         padding: 0% 0 8% 0;
+         
+     }
+     a[href="#activité"] {
+         border-top: none;
+         border-bottom: 3px #f2f2f2 solid;
+         width: 100%;
+         padding: 0% 0 8% 0;
+     }
+     .inscrire{
+         display: flex;
+         margin-left: 70%;
+         font-weight: bold;
+     }
     main{
         display: flex;
         flex-direction: column;
@@ -752,10 +780,24 @@ h2{
         width: 100%;
         object-fit: cover;
     }
-    .footercolumn{
+    .footercolonne{
         display: flex;
         flex-direction: column;
         width: 100%;
+    }
+    .colonne{
+        width: 100%;
+    }
+    .colonne1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 2% 0 2% 0;
+    }
+    .colonne2{
+        display: flex;
+        flex-direction: column;
+        padding: 0%;
     }
 }
 
@@ -766,44 +808,58 @@ h2{
         margin: 0 0 0 0;
         font-size: 20px;
     }
-    header{
-         display: flex;
-         margin-left: 5%;
-          width: 90%;
-         height: 100%;
-     }
-     .header1{
-         width: 100%;
-         display: flex;
-         flex-direction: row;
-         justify-content: space-between;
-     }
-     .logohead{
-         display: flex;
-         border-style: none;   
-     }
-     .menu
-     {
-         color: black;
-         display: flex;
-         justify-content: end;
-         width: 30%;
-         flex-direction: row;
-     }
-     .menue{
-         display: flex;
-         flex-direction: row;
-         align-items: center;
-         width: 20%;
-         justify-content: space-evenly;
-     }
-     .menu2{
-         display: flex;
-         margin: 2%;
-     }
-     a[href="#hebergement"] {
-         border-top: 3px #0065fc solid;
-     }
+    header
+{
+     display: flex;
+     align-content: space-between;
+     margin-left: 5%;
+     width: 90%;
+     height: 100%;
+}
+.header1{
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+}
+.logohead
+{
+     display: flex;
+     border-style: none;
+     
+}
+.menu
+{
+      color: black;
+      display: flex;
+      justify-content: end;
+      width: 52%;
+      flex-direction: row;
+}
+.menue{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     width: 77%;
+     justify-content: space-evenly;
+}
+.menu2{
+    display: flex;
+    margin: 2%;
+}
+a[href="#hebergement"] {
+    border-top: 3px #0065fc solid;
+    color: #0065fc;
+    padding-top: 15%;
+}
+a[href="#activité"]{
+    padding-top: 22%;
+}
+.inscrire{
+    color: #0065fc;
+    padding-top: 7%;
+    font-weight: bold;
+}
     main{
         display: flex;
         flex-direction: column;
