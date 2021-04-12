@@ -155,6 +155,7 @@ h1
                cursor: pointer;
                font-weight: bold;
                width: auto;
+               margin-right: 20px
 }
 .filtre2:hover
 {
@@ -424,12 +425,14 @@ h2{
         width: 100%;
         flex-wrap: wrap;
         justify-content: space-between;
+        margin-left: 0%;
      }
      .logohead{
         display: flex;
         align-items: flex-start;
         width: 30%;   
-        height: 40px;  
+        height: 40px; 
+        margin-left: 5%; 
      }
      .header1{
         flex-wrap: wrap;
@@ -538,9 +541,9 @@ h2{
          align-items: center;
      }
      .hebergement1{
-         margin: 2% 0 2% 0;
+         margin: 2% 2% 2% 2%;
          width: 88%;
-         box-shadow: 9px 9px 9px 9px #f2f2f2;
+         box-shadow: 5px 5px 5px 5px #f2f2f2;
      }
      .hebergementphoto{
          width: 100%;
@@ -696,6 +699,7 @@ h2{
     .filtre2{
         display: flex;
         flex-direction: row;
+        margin-bottom: 6px;
     }
     .recherchelieubutton2{
         display: none;
@@ -875,6 +879,7 @@ a[href="#activité"]{
     .filtre2{
         display: flex;
         flex-direction: row;
+        margin-bottom: 6px;
     }
     .recherchelieubutton{
                background-color:#0065fc;
