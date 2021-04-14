@@ -502,6 +502,11 @@ h2{
          flex-direction: row;
          margin: 0% 4% 2% 0;
      }
+     .filtre2:hover
+{
+               background-color: #DEEBFF;
+               
+}
      .filtretext{
         margin: 9px;
      }
@@ -701,6 +706,11 @@ h2{
         flex-direction: row;
         margin-bottom: 6px;
     }
+    .filtre2:hover
+{
+               background-color: #DEEBFF;
+               
+}
     .recherchelieubutton2{
         display: none;
         visibility: hidden;
@@ -881,6 +891,11 @@ a[href="#activité"]{
         flex-direction: row;
         margin-bottom: 6px;
     }
+    .filtre2:hover
+{
+               background-color: #DEEBFF;
+               
+}
     .recherchelieubutton{
                background-color:#0065fc;
                color: white;
