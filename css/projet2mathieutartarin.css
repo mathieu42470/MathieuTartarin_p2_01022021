@@ -66,7 +66,7 @@ a[href="#activité"]{
 }
 .inscrire{
     color: #0065fc;
-    padding-top: 6%;
+    padding-top: 5%;
     font-weight: bold;
 }
 a{
@@ -481,6 +481,7 @@ h2{
          display: flex;
          margin-left: 70%;
          font-weight: bold;
+         padding-top: 7%;
      }
      main{
          display: flex;
@@ -688,6 +689,7 @@ h2{
          display: flex;
          margin-left: 70%;
          font-weight: bold;
+         padding-top: 7%;
      }
     main{
         display: flex;
