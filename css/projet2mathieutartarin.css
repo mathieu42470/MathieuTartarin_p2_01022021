@@ -690,6 +690,7 @@ h2{
          margin-left: 70%;
          font-weight: bold;
          padding-top: 7%;
+         width: 100%;
      }
     main{
         display: flex;
@@ -816,7 +817,13 @@ h2{
         padding: 0%;
     }
 }
-
+@media (min-width: 400px) and (max-width: 600px)
+{
+    .inscrire{
+        padding-top: 12%;
+        width: 100%;
+    }
+}
 @media (min-width: 600px) and (max-width: 1024px)
 {
     body{
