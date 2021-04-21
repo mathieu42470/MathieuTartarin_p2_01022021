@@ -486,9 +486,11 @@ h2{
      main{
          display: flex;
          flex-direction: column;
+         margin: 0%;
      } 
      .recherche{
-         margin-left: 2%;
+         margin-left: 5%;
+         margin-right: 5%;
      }    
      .filtre{
          display: flex;
@@ -692,9 +694,14 @@ h2{
          padding-top: 7%;
          width: 100%;
      }
-    main{
+     main{
         display: flex;
         flex-direction: column;
+        margin: 0%;
+    } 
+    .recherche{
+        margin-left: 5%;
+        margin-right: 5%;
     }   
     .filtre{
         display: flex;
@@ -883,10 +890,15 @@ a[href="#activité"]{
     padding-top: 7%;
     font-weight: bold;
 }
-    main{
-        display: flex;
-        flex-direction: column;
-    }   
+main{
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+} 
+.recherche{
+    margin-left: 5%;
+    margin-right: 5%;
+}    
     .filtre{
         display: flex;
         flex-direction: column;
